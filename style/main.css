@@ -10,6 +10,7 @@
 body, html{
     color: #fff;
     background: linear-gradient(180deg, #102347 0%, #181818 100%);
+    height: 100%;
 }
 
 header{
@@ -49,14 +50,25 @@ header{
 }
 
 #sales{
-    padding: 2.5rem 0.625rem;
+    padding: 0rem 0.625rem;
+}
+
+.dsmeta-sales-tittle-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .dsmeta-sales-tittle{
-    color: #676FFF;
-    font: 1.5rem;
+    color: #fff;
+    font-size: 1.7rem;
 
     margin-bottom: 1.25rem;
+}
+
+.dsmeta-form-major{
+    display: flex;
+    justify-content: space-around;
 }
 
 .dsmeta-form-control{
@@ -141,13 +153,18 @@ header{
     display: none;
 }
 
+#github-logo{
+    position: absolute;
+    right: 1rem;
+}
+
 @media(min-width: 576px){
     .show576{
         display: table-cell;
     }
 
     .dsmeta-card{
-        padding: 2.18rem;
+        padding: 0.6rem 2.18rem 2.18rem;
     }
 
     .dsmeta-sales-table tbody tr{
