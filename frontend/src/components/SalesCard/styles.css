@@ -1,0 +1,116 @@
+.dsmeta-card{
+    background-color: #283142;
+    border-radius: 0.625rem;
+    padding: 1.87rem 0.625rem;
+}
+
+.dsmeta-sales-tittle-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dsmeta-sales-tittle{
+    color: #fff;
+    font-size: 1.7rem;
+
+    margin-bottom: 1.25rem;
+}
+
+.dsmeta-form-major{
+    display: flex;
+    justify-content: space-around;
+}
+
+.dsmeta-form-control{
+    width: 100%;
+    height: 2.87rem;
+    border-radius: 0.31rem;
+    padding: 0 1.25rem;
+
+    font-size: 1.15rem;
+
+    background-color: #1B2531;
+    border: 1px solid #384459;
+    color: #9AAABE;
+}
+
+.dsmeta-form-control-container{
+    margin-bottom: 1rem;
+    max-width: 18.75rem;
+}
+
+.dsmeta-form-control-label{
+    color: #9AAABE;
+}
+
+.dsmeta-sales-table{
+    width: 100%;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+.dsmeta-sales-table thead{
+    height: 3.43rem;
+    font-size: 1rem;
+    color: #E9E9E9;
+    font-weight: 700;
+}
+
+.dsmeta-sales-table tbody{
+    font-size: 0.87rem;
+    font-weight: 400;
+    color: #CFCFCF;
+
+    text-align: center;
+}
+
+.dsmeta-sales-table tbody tr{
+    height: 4.68rem;
+    border-top: 1px solid #5f6EB2;
+}
+
+.dsmeta-sales-table tbody tr:hover > td {
+    background-color: #384459;
+}
+
+.dsmeta-sales-table tbody tr:nth-child(odd){
+    background-color: #242C3B;
+}
+
+.show576{
+    display: none;
+}
+
+.show992{
+    display: none;
+}
+
+#github-logo{
+    position: absolute;
+    right: 1rem;
+}
+
+@media(min-width: 576px){
+    .show576{
+        display: table-cell;
+    }
+
+    .dsmeta-card{
+        padding: 0.6rem 2.18rem 2.18rem;
+    }
+
+    .dsmeta-sales-table tbody tr{
+        height: 3.43rem;
+    }
+
+    .dsmeta-sales-table tbody{
+        font-size: 1.1rem;
+    }
+}
+
+@media(min-width: 992px){
+    .show992{
+        display: table-cell;
+    }
+}
