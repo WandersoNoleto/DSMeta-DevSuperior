@@ -78,6 +78,34 @@
     background-color: #242C3B;
 }
 
+.dsmeta-sales-table tbody, thead{
+    display: block;
+}
+
+.dsmeta-sales-table th,
+.dsmeta-sales-table td {
+  padding: 0.7rem;
+  width: 10%;
+}
+
+
+.dsmeta-sales-table tbody{
+    max-height: 17.14rem;
+    overflow-y: scroll;
+}
+
+.dsmeta-sales-table tbody::-webkit-scrollbar{
+    border-radius: 0.4rem;
+    background-color: #1f283a;
+    width: 0.6rem;
+}
+
+.dsmeta-sales-table tbody::-webkit-scrollbar-thumb{
+    background-color: #5f6EB2;
+    border-radius: 1rem;
+}
+
+
 .show576{
     display: none;
 }

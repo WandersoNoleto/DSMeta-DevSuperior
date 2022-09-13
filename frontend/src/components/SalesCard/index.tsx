@@ -66,6 +66,7 @@ function SalesCard() {
                             <th>Notificar</th>
                         </tr>
                     </thead>
+                    
                     <tbody>
                         {
                             sales.map(sale => {
@@ -74,9 +75,9 @@ function SalesCard() {
                                     <td className="show992">{sale.id}</td>
                                     <td className="show576">{new Date(sale.date).toLocaleDateString()}</td>
                                     <td>{sale.sellerName}</td>
-                                    <td>{sale.visited}</td>
+                                    <td className="show992">{sale.visited}</td>
                                     <td className="show992">{sale.deals}</td>
-                                    <td className="show992">R$ {sale.amount.toFixed(2)}</td>
+                                    <td>R$ {sale.amount.toFixed(2)}</td>
                                     <td>
                                         <div className="dsmeta-red-btn-container">
                                             <NotificationButton saleId={sale.id} />                                        </div>

@@ -1,9 +1,8 @@
 import SalesCard from "./components/SalesCard"
 import Header from "./components/Header"
-import NotificationButton from "./components/NotificationButton"
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-
+import SocialMedia from "./components/SocialMedia";
 
 function App() {
     return(
@@ -17,6 +16,7 @@ function App() {
             </div>
         </section>
     </main>
+    <SocialMedia/>
     </>
     )
 }

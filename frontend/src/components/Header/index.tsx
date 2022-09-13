@@ -1,5 +1,4 @@
 import logo from '../../assets/img/logo.svg'
-
 import './styles.css'
 
 function Header() {
@@ -10,6 +9,7 @@ function Header() {
         <img id='dsmeta-logo' src={logo} alt="Logo DSMeta"/>
         <h1>DSMeta</h1>
         </div>
+
     </header>
     </>
     )
