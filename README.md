@@ -11,7 +11,7 @@
 
 ## :rocket: Stack utilizada
 
-**Front-end:** HTML, CSS, Javascript com React
+**Front-end:** HTML, CSS, React
 
 **Back-end:** Java com SpringBoot
 
