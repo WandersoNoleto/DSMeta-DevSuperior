@@ -1,7 +1,7 @@
 # DSMeta
 
 <div align="center">
-  <img width="900px" height="500px" src="/readme-doc/documentation/mainpicture.png"/><center>
+  <img width="900px" height="400px" src="/readme-doc/documentation/mainpicture.png"/><center>
 <div/>
 
 <div align="left">
