@@ -17,7 +17,7 @@
 
 ## :key: Variáveis de Ambiente
 A aplicação tem a funcionalidade de informar via SMS os dados do relatório de vendas 
-de um determinado vendador ao número informado, utilizando-se da API da <a href="https://www.twilio.com/pt-br/">Twillio<a>. Para rodar esse projeto, você vai precisar adicionar as seguintes variáveis de ambiente:
+de um determinado vendador ao número informado, utilizando-se da API da <a href="https://www.twilio.com/pt-br/">Twilio<a>. Para que o projeto funcione corretamente, você vai precisar adicionar as seguintes variáveis de ambiente:
 
 `TWILIO_KEY`
 
@@ -27,7 +27,7 @@ de um determinado vendador ao número informado, utilizando-se da API da <a href
 
 `TWILIO_SID`
 
-<h6>São respectivamente: seu token de autenticação na API da Twillio, 
+<h6>São respectivamente: seu token de autenticação na API da Twilio, 
 o número disponibilizado na API, o número para o qual os relatórios 
 devem ser enviados e o ID da sua conta na Twillio.<h6>
 
